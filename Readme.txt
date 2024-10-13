@@ -19,4 +19,4 @@ docker run -d nginx - Создает и запускает контейнер (-
 docker container inspect 73eac9e77ade - Показывает все детали контейнера.
 docker stop <id или имя контейнера> - Останавливает запущенный контейнер.
 docker exec -it <id или имя контейнера> bash - Можно запускать дополнительный процесс уже в запущенном контейнере.
-docker run -d --name my_nginx - Опция --name задает конкретное имя контейнеру.
+docker run -d --name my_nginx nginx - Опция --name задает конкретное имя контейнеру.
